@@ -22,10 +22,13 @@
 
 
 
-def esPalindromo(frase):
+def esPalindromo(frase,verbose=True):
     """
     Devuelve Verdadero si la frase usada como parámetro es palíndromo,
     ignorando espacios y signos de puntuación.
     """
     letras = [c for c in frase.lower() if c.isalpha()]
+    if verbose:
+		print letras
     return (letras == letras[::-1])
+
