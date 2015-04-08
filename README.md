@@ -2,7 +2,7 @@
 
 Create palindromes with python.
 
-= Authors =
+# Authors
 
 @raul.perula
 @mpedrero
